@@ -37,6 +37,16 @@ def sqrt(x):
 def power(x, y):
     return x ** y
 
+# --- Новые функции, добавленные в ветке edits ---
+
+def square(a):
+    """Возведение числа в квадрат"""
+    return a * a
+
+def remainder(a, b):
+    """Остаток от деления"""
+    return a % b
+
 
 # ---------- МОДУЛЬ: Ввод данных (Input) ----------
 def input_number(prompt):
